@@ -1,0 +1,195 @@
+.container__patas{
+	position: relative;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.patas{
+	position: absolute;
+
+	background-image: url('../../img/ilustrações/Patas.svg');
+	background-position: right;
+	background-repeat: no-repeat;
+
+	width: 189.96px;
+	height: 243.41px;
+
+	top: -2rem;
+}
+
+.splash--cadastro{
+	position: absolute;
+
+	display: flex;
+	justify-content: flex-start;
+
+
+	background-image: url('../../img/formas-tela-2/splash-left.svg');
+	background-position: left;
+	background-repeat: no-repeat;
+
+	width: 83.73px;
+	height: 415px;
+
+	top: 45%;	
+}
+
+.container__cadastro{
+	display: flex;
+	justify-items: center;
+	align-items: center;
+
+	flex-direction: column;
+}
+
+.logo__azul{
+	width: 142.54px;
+
+	margin-top: 9rem;
+	margin-bottom: 2rem;
+}
+
+.container__cadastro p{
+	color: var(--azul);
+
+	width: 312px;
+
+	text-align: center;
+	font-size: 16px;
+
+	margin-bottom: 1rem;
+}
+
+.senha--desktop{
+	display: none;
+}
+
+.form__cadastro{
+	position: relative;
+	height: 530px;
+}
+
+.senha::placeholder{
+	background-image: url('../../img/Navegação/visualizador.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.form__cadastro button{
+	top: 77%;
+}
+
+.form__cadastro a{
+	color: white;
+
+	text-decoration: none;
+}
+
+
+@media only screen and (min-width: 768px){
+	
+	.patas{
+		background-image: url('../../img/ilustrações/Patas-tablet.svg');
+
+		width: 292px;
+		height: 374.15px;
+
+		z-index: 2;
+	}
+
+	.splash--cadastro{
+		display: none;
+	}
+
+	.container__splash{	
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.splash{
+		position: absolute;
+
+		top: 45%;
+
+		background-image: url('../../img/formas-tela-1/forma-2-tablet.svg');
+		background-position: right;
+		background-repeat: no-repeat;
+
+		
+		width: 134.45px;
+		height: 664px;
+
+	}
+
+	.logo__azul{
+		margin-top: 15rem;
+
+		width: 251.59px;
+	}
+
+	.form__cadastro{
+		height: 650px;
+	}
+
+	.form__cadastro button{
+		top: 65%;
+	}
+
+	.container__cadastro p{
+		width: 525px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.container__cadastro p{
+		width: 552px;
+
+		font-size: 18px;
+
+		line-height: 26px;
+	}
+
+
+	.form__input--login{
+		width: 362px;
+	}
+
+	.form__input--login:nth-child(2), .form__input--login:nth-child(4){
+		width: 552px
+	}
+
+	.form__input--login::placeholder{
+		font-size: 16px;
+	}
+
+	.form__cadastro{
+		display: flex;
+		align-items: center;
+
+		flex-direction: column;
+
+		width: 552px;
+	}
+
+	.form__label--login{
+		font-size: 18px;
+	}
+
+	.container__cadastro br:nth-child(2){
+		display: none;
+	}
+
+	.senha--mobile{
+		display: none;
+	}
+
+	.senha--desktop{
+		display: block;
+	}
+
+	.splash{
+		z-index: 1;
+		top: 25%;
+	}
+}

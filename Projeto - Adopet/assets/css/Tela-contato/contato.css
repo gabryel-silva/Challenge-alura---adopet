@@ -1,0 +1,42 @@
+.container__contato{
+	display: flex;
+	align-content: center;
+
+	flex-direction: column;
+
+	margin-top: 10rem;
+
+	position: relative;
+}
+
+.container__texto--informativo{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+@media only screen and (min-width: 768px){
+
+	.container__contato{
+		margin-top: 17rem;
+		margin-bottom: 5rem;
+	}
+
+	.container__texto--informativo p{
+		width: 524px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.container__contato{
+		margin-top: 13rem;
+		margin-bottom: 3rem;
+	}
+
+	.container__texto--informativo p{
+
+		font-size: 18px;
+
+		line-height: 26px;
+	}
+}

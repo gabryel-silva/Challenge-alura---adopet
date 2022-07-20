@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Componentes | adopet</title>
+	<link rel="shortcut icon" href="assets/img/logo/Logo-minimalista.svg">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/componentes-basicos/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/componentes-basicos/botao.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/componentes-basicos/variaveis.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/componentes-basicos/header.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/componentes-basicos/form-cadastro.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/componentes-basicos/cartao.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/componentes-basicos/envio-de-mensagem.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/componentes-basicos/rodape.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/base.css">
+</head>
+<body>
+	<header class="cabecalho">
+		<nav class="menu">
+			<img class="Logo-menu" src="assets/img/logo/Logo-branco.svg" alt="Logo adopet">
+			<img class="icone__home" src="assets/img/Navegação/home.svg" alt="Home">
+			<img class="icone__mensagem" src="assets/img/Navegação/Mensagens.svg" alt="Mendagens">
+		</nav>
+	</header>
+
+	<main class="container">
+		<div class="container__botao">
+			<button class="botao botao__alternativo">Cadastrar</button>
+		</div>
+
+		<form class="form__login form__cadastro">
+				<label class="form__label--login" for="Nome">Nome</label>
+				<input class="form__input--login" type="text" name="Nome" required placeholder="Digite seu nome completo">
+		</form>
+
+		<article class="card">
+			<div class="container">
+				<img class="imagem__pet" src="assets/img/imagens-animais/Dunga.png" alt="iamgem-pet">
+				<div class="detalhes__card--pet">
+					<h3>Dunga</h3>
+					<p class="detalhes__pet">
+						2 anos<br>
+						Porte pequeno<br>
+						Calmo e educado
+					</p>
+					<p class="estado__pet">Rio de Janeiro (RJ)</p>				
+					<a href="#"><p class="texto__cta"><img src="assets/img/elementos-de-cards/icone-mensagem.svg">Falar com responsável</p></a>
+				</div><!--detalhes__card--pet-->
+			</div><!--container-->
+		</article>
+	</main>
+
+	<section class="container__form--mensagem container__form--perfil">
+		<form class="form__mensagem form__perfil">
+			<label for="Nome">Nome</label>
+			<input type="text" id="nomeMensagem" placeholder="Insira seu nome completo">
+			<label for="Telefone">Telefone</label>
+			<input type="tel" id="telefoneMensagem" placeholder="Insira seu telefone e/ou whatsapp">
+			<label for="Nome-animal">Nome do animal</label>
+			<input type="text" id="animalMensagem" placeholder="Por qual animal você se interessou?">
+			<label for="mensagem">Mensagem</label>
+			<textarea cols="25" rows="10" placeholder="Escreva sua mensagem."></textarea>
+			<button class="botao botao__mensagem">Enviar</button>
+		</form>
+	</section>
+
+	<footer class="rodape">
+		<p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+	</footer>
+</body>		
+</html>

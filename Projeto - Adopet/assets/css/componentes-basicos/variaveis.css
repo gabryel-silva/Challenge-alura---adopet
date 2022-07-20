@@ -1,0 +1,13 @@
+:root{
+	--verde: #36D6AD;
+	--vermelho: #FC7071;
+	--azul:  #3772FF;
+	--creme: #FCF0E3;
+	--cinza: #737380;
+	--cinza-claro: #BCBCBC;
+	--cor-fundo: #F6F6F6;
+
+	--espessura-titulo: 600;
+	--espessura-titulo-botao: 600;
+	--espessura-texto: 400;
+}

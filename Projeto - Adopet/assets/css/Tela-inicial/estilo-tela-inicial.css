@@ -1,0 +1,122 @@
+.container__splash{	
+	display: flex;
+	justify-content: flex-end;
+}
+
+.splash{
+	position: absolute;
+
+	background-image: url('../../img/formas-tela-1/forma-2.svg');
+	background-position: right;
+	background-repeat: no-repeat;
+
+	width: 84.03px;
+	height: 415px;
+
+	top: 25%;
+}
+
+.tela--inicial{
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+}
+
+.container__tela--inicial{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+}
+
+.logo-creme{
+	margin-top: 10rem;
+
+	width: 186.67px;
+	height: 46px;
+}
+
+.container__tela--inicial h2{
+	margin: 2rem 0;
+
+	font-size: 26px;
+	font-weight: 500;
+}
+
+
+.container__tela--inicial p{
+
+	width: 248px;
+
+	text-align: center;
+
+	line-height: 24px;
+}
+
+.botao__alternativo{
+	position: relative;
+
+	margin-bottom: 1rem;
+
+	top: 5%;
+}
+
+.container__botao{
+	margin: 2rem 0;
+}
+
+@media only screen and (min-width: 768px){
+	.container__tela--inicial p{
+		font-size: 28px;
+
+		width: 344px;
+		font-size: 18px;
+
+		margin-bottom: 2rem;
+	}
+
+	.logo-creme{
+		margin-top: 17rem;
+
+		width: 251.59px;
+		height: 62px;
+	}
+
+	.splash{
+		top: 45%;
+
+		background-image: url('../../img/formas-tela-1/forma-2-tablet.svg');
+
+		
+		width: 134.45px;
+		height: 664px;
+
+	}
+
+	.ilustração__pets{
+		width: 338.28px;
+		height: 422px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.logo-creme{
+		margin-top: 10rem;
+	}
+
+	.container__tela--inicial p{
+		width: 488px;
+	}
+
+	.ilustração__pets{
+		width: 346px;
+		height: 431.63px;
+	}
+
+	.splash{
+		top: 10%;
+	
+	}
+}

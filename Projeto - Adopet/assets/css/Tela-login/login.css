@@ -1,0 +1,52 @@
+
+.form__login{
+	margin-top: 1rem;
+
+	height: 550px;
+}
+
+.fazer--login{
+	margin-top: 2rem;
+}
+
+.botao__login{
+	top: 50% !important;
+}
+
+.form__login a{
+	display: flex;
+	justify-content: center;
+}
+
+a .recuperação__senha{
+	text-align: center;
+
+	margin-top: 1rem;
+
+	color: var(--vermelho);
+
+	text-decoration: underline;
+
+	font-size: 12px;
+}
+
+@media only screen and (min-width: 768px){
+	.recuperação__senha{
+		display: none;
+	}
+
+	.botao__login{
+		top: 45% !important;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.senha{
+		width: 362px !important;
+
+	}
+
+	.botao__login{
+		top: 42% !important;
+	}
+}

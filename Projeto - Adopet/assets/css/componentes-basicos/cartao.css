@@ -1,0 +1,67 @@
+.card{
+	background-color: var(--cor-fundo);
+
+	width: 100%;
+	height: 196px;
+
+	margin-top: 1rem;
+}
+
+.imagem__pet{
+	width: 148px;
+	height: 148px;
+}
+
+.card > .container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	padding-top: 1rem;
+}
+
+.detalhes__card--pet{
+	flex-direction: column;
+}
+
+.detalhes__card--pet h3{
+	color: var(--azul);
+
+	font-weight: var(--espessura-titulo);
+}
+
+.detalhes__pet{
+	color: var(--cinza);
+
+	margin: 1rem 0;
+	line-height: 20px;
+}
+
+.estado__pet{
+	font-size: 13px;
+	font-weight: var(--espessura-texto);
+
+	color: var(--cinza);
+
+	margin-bottom: .7rem;
+}
+
+.texto__cta{
+	display: flex;
+	align-items: center;
+
+	flex-direction: row;
+
+	font-size: 10px;
+	font-weight: var(--espessura-texto);
+
+	color: var(--cinza);
+}
+
+.texto__cta img{
+	margin-right: .3rem;
+}
+
+.card a{
+	text-decoration: none;
+}

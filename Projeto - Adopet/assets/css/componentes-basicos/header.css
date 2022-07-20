@@ -1,0 +1,46 @@
+.cabecalho{
+	position: absolute;
+	background-image: url('../../img/formas-tela-1/forma-1.svg');
+	background-position: left;
+	background-repeat: no-repeat;
+	width: 352.11px;
+	height: 295px;
+	margin-bottom: 5rem;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	width: 50vw;
+
+	margin-top: 3rem;
+}
+
+.Logo-menu{
+	display: none;
+}
+
+@media only screen and (min-width: 768px){
+	.cabecalho{
+		background-image: url('../../img/formas-tela-1/forma-3.svg');
+
+		width: 560.97px;
+		height: 470px;
+	}
+
+	.Logo-menu{
+		display: block;
+
+		width: 128px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.menu{
+		width: 20vw;
+		margin-left: 8rem;	
+	}
+
+}
